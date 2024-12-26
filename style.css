@@ -8,12 +8,17 @@ body, *{
     background-color: rgb(219, 215, 208);
     font-family: Arial, Helvetica, sans-serif;
 }
-.container nav {
-    padding: 15px 30px 30px 30px  ;
+.container nav  {
+    padding: 15px 30px 30px 30px;  
+    
+}
+.container nav a {
+    color:rgb(24, 117, 204) ;
 }
 nav p {
     text-align: center;
     font-size: 12px;
+    ;
 }
 legend {
     text-align: center;
