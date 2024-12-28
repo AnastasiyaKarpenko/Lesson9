@@ -9,6 +9,21 @@ body, *{
     font-family: Arial, Helvetica, sans-serif;
     border-radius:10px;
 }
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+.container .cross {
+    position: absolute;
+    width:25px;
+    height: 25px;
+    right: -14px;
+    bottom: 265px;
+
+}
+
+
 .container nav  {
     padding: 15px 10px 20px 30px;  
     
