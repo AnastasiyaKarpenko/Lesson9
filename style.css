@@ -1,31 +1,32 @@
 body, * {
-    width: 1200px;
+    width: 900px;
     margin: 0 auto; 
 
 }
 .container {
-    width: 1200px;
+    width: 900px;
     margin: 0auto;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+
+.container a:hover {
+    color: rgb(131, 179, 241);
 }
 a {color: rgb(29, 29, 161);
-border: 2px solid red;
 }
-nav ul {
+ ul {
+    display: inline-block;
+    border: 2px solid rgb(162, 0, 255);
     list-style: none;
     padding: 0;
-    display: inline-block;
     background-color: lightgrey;
     border-radius: 5px;
-    padding: 10px 20px;
-    
-
+    padding:10px 20px;
 }
-nav li { display: inline-block; color: rgb(29, 29, 161);
-
-}
-.container li a {
+.container li a { 
+    border: 2px solid red;
+    display: inline-block;} 
+.container  a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-decoration: none;
@@ -34,29 +35,34 @@ nav li { display: inline-block; color: rgb(29, 29, 161);
 section {
     border: 2px solid lightgrey;
     border-radius: 5px;
-    padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 20px; 
+    
 }
 section h1 {
     font-size: 16px;
     margin-bottom: 20px;
+    padding: 20px 0px 0px 30px;
 }
-section ul li {
-    border: 2px solid red;
-    width: auto;
+.section-item, .section-item1 {
+    font-size: 12px;
+    vertical-align: top;
     display: inline-block;
-}
-section li {
-    list-style: none;
-    padding: 0;
-}
-section li {
-    width: 150px;
-    display: inline-block;
-}
+    width: 165px ; /*адаем размер картинке, чтобы были на одной линии */
+    text-align: center; /*Выравниваем текст(строчный элемент) внутри блока по центру */
+   }
+   .section-item1 {
+    margin-left: 25px;
+   }
  img {
-    width: 150px;
+    height: 120px;
+    width: 130px;
     border: 10px solid lightgrey;
-    display: inline-block;
     padding: 5px;
 }
+
+section a {
+    color: rgb(29, 29, 161);
+    text-decoration: none;
+    padding: 0;
+}
+    
