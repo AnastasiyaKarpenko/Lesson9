@@ -14,28 +14,33 @@ body, * {
 }
 a {color: rgb(29, 29, 161);
 }
- ul {
-    display: inline-block;
-    border: 2px solid rgb(162, 0, 255);
+ ul {  width: 96%;
+    font-size: 12px;
     list-style: none;
-    padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(231, 225, 225);
     border-radius: 5px;
     padding:10px 20px;
 }
-.container li a { 
-    border: 2px solid red;
-    display: inline-block;} 
+li {
+    display: inline;
+}
+.container li a {
+    padding-left: 15px;
+    display: inline;
+}
 .container  a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-decoration: none;
     padding: 0;
 }
+
+
 section {
     border: 2px solid lightgrey;
     border-radius: 5px;
     margin-top: 20px; 
+    padding-bottom: 10px;
     
 }
 section h1 {
